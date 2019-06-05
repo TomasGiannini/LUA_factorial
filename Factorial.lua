@@ -17,3 +17,20 @@ print("Please enter a number");
 local num = io.read();
 
 print("The factorial of " .. num .. " is " .. factorial(num));
+
+
+function multiply(cand, lier)
+  
+  answer = cand *lier
+  return answer
+  
+end
+
+
+print('Enter multiplicand')
+cand = io.read();
+
+print('Enter multiplier')
+lier = io.read();
+
+print('Your product is ' .. multiply(cand, lier))
